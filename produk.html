@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Products - Maple & Marigold</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Maple & Marigold</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="produk.html" class="nav__link active-link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="layanan.html" class="nav__link">Our Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="pemesanan.html" class="nav__link">Order Now</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </div>
+            <div class="nav__shop" id="cart-shop">
+                <i class='bx bx-shopping-bag' ></i>
+            </div>
+
+        </nav>
+    </header>
+
+     <!--==================== CART ====================-->
+     <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">My Cart</h2>
+
+        <div class="cart__container">
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/featured1.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Clotted Cream Scones</h3>
+                    <span class="cart__price">Rp. 15000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus' ></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/featured3.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Chocolate Croissant</h3>
+                    <span class="cart__price">Rp. 22000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus' ></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/new1.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Sourdough Bread</h3>
+                    <span class="cart__price">Rp. 14000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus' ></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">3 items</span>
+            <span class="cart__prices-total">Rp. 51000</span>
+        </div>
+    </div>
+
+    <!--==================== PRODUCTS ====================-->
+    <main class="main">
+        <section class="products section container">
+            <h2 class="section__title">Our Products</h2>
+            
+            <div class="products__container grid">
+                <!-- Produk dari section Featured -->
+                <article class="products__card">
+                    <img src="assets/img/featured1.png" alt="" class="products__img">
+                    <h3 class="products__title">Clotted Cream Scones</h3>
+                    <span class="products__price">Rp. 15000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/featured2.webp" alt="" class="products__img">
+                    <h3 class="products__title">Maple Brioche</h3>
+                    <span class="products__price">Rp. 18000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/featured3.png" alt="" class="products__img">
+                    <h3 class="products__title">Chocolate Croissant</h3>
+                    <span class="products__price">Rp. 22000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <!-- Produk dari section Products -->
+                <article class="products__card">
+                    <img src="assets/img/product1.png" alt="" class="products__img">
+                    <h3 class="products__title">Banana Nut Muffin</h3>
+                    <span class="products__price">Rp. 10000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product2.png" alt="" class="products__img">
+                    <h3 class="products__title">Blueberry Muffin with Fruits</h3>
+                    <span class="products__price">Rp. 14000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product3.png" alt="" class="products__img">
+                    <h3 class="products__title">Honey Cake</h3>
+                    <span class="products__price">Rp. 42000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <!-- Produk dari section New Arrivals -->
+                <article class="products__card">
+                    <img src="assets/img/new1.png" alt="" class="products__img">
+                    <h3 class="products__title">Sourdough Bread</h3>
+                    <span class="products__price">Rp. 14000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/new2.png" alt="" class="products__img">
+                    <h3 class="products__title">Cinnamon Roll</h3>
+                    <span class="products__price">Rp. 18000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/new3.png" alt="" class="products__img">
+                    <h3 class="products__title">Chocolate Eclair Pastry</h3>
+                    <span class="products__price">Rp. 21000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <!-- Produk Tambahan -->
+                <article class="products__card">
+                    <img src="assets/img/product4.png" alt="" class="products__img">
+                    <h3 class="products__title">Jazzmaster</h3>
+                    <span class="products__price">Rp. 36000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product5.png" alt="" class="products__img">
+                    <h3 class="products__title">Duchen</h3>
+                    <span class="products__price">Rp. 34000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/new4.png" alt="" class="products__img">
+                    <h3 class="products__title">Dreyfuss Gold</h3>
+                    <span class="products__price">Rp. 45000</span>
+                    <button class="products__button"><i class='bx bx-shopping-bag'></i></button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">Our information</h3>
+                <ul class="footer__list">
+                    <li>59382 - Jekulo</li>
+                    <li>Kudus - Jawa Tengah</li>
+                    <li>089655691070</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">About Us</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Support Center</a></li>
+                    <li><a href="#" class="footer__link">Customer Support</a></li>
+                    <li><a href="#" class="footer__link">About Us</a></li>
+                    <li><a href="#" class="footer__link">Copy Right</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Product</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Artisan Breads</a></li>
+                    <li><a href="#" class="footer__link">Pastries</a></li>
+                    <li><a href="#" class="footer__link">Cakes</a></li>
+                    <li><a href="#" class="footer__link">Breakfast Bites</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/profile.php?id=100015718476396&mibextid=ZbWKwL" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://wa.me/+6289655691070" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                    <a href="https://www.instagram.com/rizz__kids?igsh=a2xhODIzYmF1c3ll" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <span class="footer__copy">&#169; 202251049 Rizki Maulana Saputra. All rights reserved</span>
+    </footer>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
